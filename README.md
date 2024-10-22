@@ -1,7 +1,6 @@
 # PFDF
-PFDF: Privacy Preserving Federated Decision Forest for Classification
+PFDF: Privacy-Preserving Federated Decision Forest for Classification
 
-联邦场景下运行命令：mpiexec -n m python 文件名.py(m为参与方和服务器总数目)
+Command to run in federated scenario: mpiexec -n m python filename.py (where m is the total number of participants and servers)
 
-集中式场景：base_tree.py
-联邦场景：fed_tree.py
+Centralized scenario: base_tree.py Federated scenario: fed_tree.py
